@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: transparent;
+    width: 1000px;    
+    backdrop-filter: blur(4px);
+    .options {
+        display: flex;
+        gap: 30px;
+    }
+    .darkMode {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        i {
+            color: $blanco;
+            font-size: 18px;
+        }
+    }
+    .idioma {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        span {
+            color: $blanco;
+            font-size: 15px;
+        }
+    }
+    .links {
+        display: flex;
+        gap: 10px;
+        &-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            i {
+                color: $blanco;
+            }
+            a {
+                font-size: 15px;
+                &:hover {
+                    text-decoration: underline;
+                }
+                
+            }
+        }
+    }
+}

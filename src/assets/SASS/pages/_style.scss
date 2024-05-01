@@ -1,0 +1,147 @@
+.presentacion {
+  display: grid;
+  grid-template-columns: auto 2fr;
+  gap: 50px;
+  //   padding: 20px 0;
+  &-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 50%;
+      border: solid #e6e6e6 3px;
+      box-shadow: $sombra;
+    }
+  }
+  &-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
+    gap: 5px;
+    &-nombre {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: 30px;
+      h1 {
+        color: $blanco;
+      }
+      span {
+        background: linear-gradient(to right, #ff9b06, #fd06e4);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      img {
+        height: 70px;
+        width: 70px;
+      }
+    }
+    &-desc {
+      display: flex;
+      p {
+        font-size: 20px;
+        color: $blanco;
+      }
+    }
+    &-botones {
+      display: flex;
+      justify-content: start;
+      align-items: end;
+      gap: 20px;
+    }
+  }
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  &-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    h3 {
+      color: $blanco;
+      font-size: 25px;
+    }
+    img {
+      width: 30px;
+    }
+  }
+  &-hr {
+    hr {
+      color: $blanco;
+      opacity: 0.5;
+    }
+  }
+}
+
+.proyectos {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  &-lista {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 100px;
+    gap: 30px;
+
+    &-proyecto {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+
+      .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+
+        }
+        img {
+          width: 370px;
+          height: 200px;
+          border-radius: 5px;
+          &:hover {
+            opacity: 0.5;
+            transition: 0.5s;
+          }
+        }
+      }
+      .info {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr;
+        gap: 20px;
+        // border-bottom: solid 2px $blanco;
+        // border-right: solid 2px $blanco;
+        // border-radius: 5px;
+        padding: 5px;
+        &-titulo {
+          color: $blanco;
+          font-size: 27px;
+          font-weight: 700;
+        }
+        &-desc {
+          color: $blanco;
+          font-size: 20px;
+        }
+        &-tech {
+          display: flex;
+          justify-content: start;
+          align-items: end;
+          gap: 15px;
+          i {
+            font-size: 40px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    background-image: linear-gradient(to bottom, #010F1F, #023B7A);
+    font-family: $fuente;
+}
+
+.app {
+   width: 1000px;
+   @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+    
+}
+
+a {
+    text-decoration: none;
+    color: $blanco;
+}
+ main {
+    padding: 200px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 200px;
+ }
+
+ .laravel {
+    color: #FF2D20;
+ }
+ .php {
+    color: #4F5D95;
+ }
+ .html {
+    color: #E34F26;
+ }
+ .css {
+    color: #1572B6;
+ }
+ .vue {
+    color: #4FC08D;
+ }
+ .js {
+    color: #F7DF1E;
+ }
+ .sass {
+    color: #CC6699;
+ }
+ .github {
+    color: #FFFFFF;
+ }
+ .gitlab {
+    color: #FC6D26;
+ }  
+ .docker {
+    color: #2496ED;
+ }
+ .figma {
+    color: #FF3D00;
+ }
+ .dribble {
+    color: #EA4C89;
+ }
