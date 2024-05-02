@@ -11,7 +11,7 @@
     <div class="proyectos-lista">
       <div class="proyectos-lista-proyecto">
         <div class="img">
-          <a target="blank" href="https://2048-henna.vercel.app/"><img src="/src/assets/images/2048.jpg" alt="2048"></a>
+          <a target="blank" href="https://2048-henna.vercel.app/"><img src="/src/assets/images/captura2048.png" alt="2048"></a>
         </div>
         <div class="info">
           <div class="info-titulo">2048 Game</div>
@@ -21,7 +21,7 @@
       </div>
       <div class="proyectos-lista-proyecto">
         <div class="img">
-          <a target="blank" href="https://www.youtube.com/watch?v=IEj1uqlGZK0&t=1s"><img src="https://t4.ftcdn.net/jpg/04/73/25/49/360_F_473254957_bxG9yf4ly7OBO5I0O5KABlN930GwaMQz.jpg" alt="2048"></a>
+          <a target="blank" href="https://www.youtube.com/watch?v=IEj1uqlGZK0&t=1s"><img src="/src/assets/images/eventium.png" alt="2048"></a>
         </div>
         <div class="info">
           <div class="info-titulo">Eventium</div>
@@ -31,7 +31,7 @@
       </div>
       <div class="proyectos-lista-proyecto">
         <div class="img">
-          <a target="blank" href="https://git.copernic.cat/rcandela/borsatreball_acandela_narilla_jgalindo"><img src="/src/assets/images/CapturaPerfil.png" alt="2048"></a>
+          <a target="blank" href="https://git.copernic.cat/rcandela/borsatreball_acandela_narilla_jgalindo"><img src="/src/assets/images/capturaBorsa.png" alt="2048"></a>
         </div>
         <div class="info">
           <div class="info-titulo">Bolsa de trabajo</div>
