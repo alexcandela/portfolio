@@ -9,7 +9,7 @@
       <div class="presentacion-info-botones">
         <a href="https://www.linkedin.com/in/alex-candela-b31956228/" target="blank" class="btn btn-linkedin"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
         <a target="blank" href="https://github.com/alexcandela" class="btn btn-github"><i class="fa-brands fa-github"></i>Github</a>
-        <a href="/public/CV_AlexCandela.pdf" download class="btn btn-resume"><i class="fa-solid fa-file"></i>Resume</a></div>
+        <a href="/CV_AlexCandela.pdf" download class="btn btn-resume"><i class="fa-solid fa-file"></i>Resume</a></div>
     </div>
   </div>
 </template>
