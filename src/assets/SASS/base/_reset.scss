@@ -13,6 +13,10 @@ body {
     font-family: $fuente;
 }
 
+// html {
+//    scroll-behavior: smooth;
+//  }
+
 .app {
    width: 1000px;
    @media screen and (max-width: 768px) {
@@ -29,14 +33,14 @@ a {
     padding: 200px 0;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 200px;
+    gap: 150px;
  }
 
  .laravel {
     color: #FF2D20;
  }
  .php {
-    color: #4F5D95;
+    color: #FFFFFF;
  }
  .html {
     color: #E34F26;

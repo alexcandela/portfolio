@@ -1,5 +1,5 @@
 <template>
-  <div class="presentacion">
+  <div id="presentacion" class="presentacion section">
     <div class="presentacion-img">
       <img src="/src/assets/images/foto2.jpg" alt="profile_img">
     </div>

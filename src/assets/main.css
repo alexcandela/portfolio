@@ -31,7 +31,7 @@ main {
   padding: 200px 0;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 200px;
+  gap: 150px;
 }
 
 .laravel {
@@ -39,7 +39,7 @@ main {
 }
 
 .php {
-  color: #4F5D95;
+  color: #FFFFFF;
 }
 
 .html {
@@ -265,7 +265,7 @@ header .links-btn a:hover {
 .proyectos-lista {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 20px 100px;
+  padding: 50px 100px;
   gap: 30px;
 }
 .proyectos-lista-proyecto {
@@ -311,6 +311,87 @@ header .links-btn a:hover {
 }
 .proyectos-lista-proyecto .info-tech i {
   font-size: 40px;
+}
+
+.experiencias {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+}
+.experiencias-lista {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 30px 10px;
+  gap: 30px;
+}
+.experiencias-lista .exp {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  color: #fff;
+  gap: 20px;
+  padding: 10px 15px;
+}
+.experiencias-lista .exp-titulo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.experiencias-lista .exp-titulo h3 {
+  font-size: 30px;
+}
+.experiencias-lista .exp-titulo img {
+  width: 30px;
+}
+.experiencias-lista .exp-desc {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+.experiencias-lista .exp-desc p {
+  font-size: 20px;
+}
+.experiencias-lista .exp-desc img {
+  width: 130px;
+}
+
+.tecnologias {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+}
+.tecnologias-lista {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 30px 10px;
+  gap: 30px;
+}
+.tecnologias-lista .tech {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+  color: #fff;
+  border: solid 1px #fff;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+.tecnologias-lista .tech-titulo h4 {
+  font-size: 25px;
+  font-weight: 500;
+  border-bottom: solid 1px #fff;
+}
+.tecnologias-lista .tech-tecnologias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.tecnologias-lista .tech-tecnologias i {
+  font-size: 50px;
 }
 
 /*# sourceMappingURL=main.css.map */

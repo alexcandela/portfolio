@@ -1,5 +1,5 @@
 <template>
-  <div class="proyectos">
+  <div id="proyectos" class="proyectos section">
     <div class="titulo">
       <div class="titulo-text">
         <h3>Proyectos</h3> <img src="/src/assets/images/iconos/star.svg" alt="star">
@@ -25,7 +25,7 @@
         </div>
         <div class="info">
           <div class="info-titulo">Eventium</div>
-          <div class="info-desc">Aplicación web donde se pueden publicar eventos y asistir a ellos.</div>
+          <div class="info-desc">Simulación de aplicación web donde se pueden publicar eventos y asistir a ellos.</div>
           <div class="info-tech"><i class="fa-brands fa-html5 html"></i><i class="fa-brands fa-css3-alt css"></i><i class="fa-brands fa-laravel laravel"></i><i class="fa-brands fa-js js"></i><i class="fa-brands fa-sass sass"></i></div>
         </div>
       </div>
@@ -36,7 +36,7 @@
         <div class="info">
           <div class="info-titulo">Bolsa de trabajo</div>
           <div class="info-desc">Bolsa de trabajo para mi instituto, para publicar e inscribirse a ofertas de practicas.</div>
-          <div class="info-tech"><i class="fa-brands fa-html5 html"></i><i class="fa-brands fa-css3-alt css"></i><i class="fa-brands fa-vuejs vue"></i><i class="fa-brands fa-sass sass"></i></div>
+          <div class="info-tech"><i class="fa-brands fa-html5 html"></i><i class="fa-brands fa-css3-alt css"></i><i class="fa-brands fa-vuejs vue"></i><i class="fa-brands fa-sass sass"></i><i class="fa-brands fa-laravel laravel"></i></div>
         </div>
       </div>
     </div>

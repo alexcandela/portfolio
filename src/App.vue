@@ -21,19 +21,19 @@
     <div class="links">
       <div class="links-btn">
         <i class="fa-solid fa-circle-user"></i>
-        <a href="http://">Sobre Mí</a>
+        <a href="" @click="scrollToSection('presentacion')">Sobre Mí</a>
       </div>
       <div class="links-btn">
         <i class="fa-solid fa-star"></i>
-        <a href="http://">Proyectos</a>
+        <a href="" @click="scrollToSection('proyectos')">Proyectos</a>
       </div>
       <div class="links-btn">
         <i class="fa-solid fa-briefcase"></i>
-        <a href="http://">Experiencia</a>
+        <a href="" @click="scrollToSection('experiencias')">Experiencia</a>
       </div>
       <div class="links-btn">
         <i class="fa-solid fa-code"></i>
-        <a href="http://">Tecnologías</a>
+        <a href="" @click="scrollToSection('tecnologias')">Tecnologías</a>
       </div>
     </div>
   </header>
@@ -50,6 +50,24 @@ import Presentacion from "./components/Presentacion.vue";
 import Proyectos from "./components/Proyectos.vue";
 import Experiencias from "./components/Experiencia.vue";
 import Tecnologias from "./components/Tecnologias.vue";
+
+const scrollToSection = (id) => {
+  event.preventDefault();
+  const section = document.getElementById(id);
+  if (section) {
+    let blockSetting = 'center';
+    if (id === 'proyectos') {
+      blockSetting = 'start';
+    }
+
+    section.scrollIntoView({
+      behavior: 'smooth',
+      block: blockSetting,
+      inline: 'center'
+    });
+  }
+};
+
 
 </script>
 <style scoped>
