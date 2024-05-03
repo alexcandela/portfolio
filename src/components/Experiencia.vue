@@ -14,7 +14,7 @@
           <h3>Web Developer · Holzadac</h3><img src="/src/assets/images/about.png" alt="about">
         </div>
         <div class="exp-desc">
-          <p>Desarrollador web utilizando con WordPress. Mi trabajo incluía crear diseños personalizados, implementar
+          <p>Desarrollador web utilizando WordPress. Mi trabajo incluía crear diseños personalizados, implementar
             plugins para cursos y tiendas, garantizar la seguridad y optimizar el rendimiento de los sitios. Logré
             mejorar la experiencia del usuario y contribuir al éxito de varios proyectos web.</p>
             <img src="/src/assets/images/ai.png" alt="computer">
