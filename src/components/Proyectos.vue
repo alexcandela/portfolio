@@ -31,7 +31,7 @@
       </div>
       <div class="proyectos-lista-proyecto">
         <div class="img">
-          <a target="blank" href="https://git.copernic.cat/rcandela/borsatreball_acandela_narilla_jgalindo"><img src="/src/assets/images/capturaBorsa.png" alt="2048"></a>
+          <a target="blank" href="https://www.youtube.com/watch?v=ksYQlPEz_BM"><img src="/src/assets/images/capturaBorsa.png" alt="2048"></a>
         </div>
         <div class="info">
           <div class="info-titulo">Bolsa de trabajo</div>
