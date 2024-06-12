@@ -2,7 +2,8 @@
   <div id="tecnologias" class="tecnologias section">
     <div class="titulo">
       <div class="titulo-text">
-        <h3>Tecnologías</h3><img src="/src/assets/images/iconos/code.svg" alt="star">
+        <h3 v-if="translate">Technologies</h3>
+        <h3 v-else>Tecnologías</h3><img src="/src/assets/images/iconos/code.svg" alt="star">
       </div>
       <div class="titulo-hr">
         <hr>
@@ -27,11 +28,13 @@
           <i class="fa-brands fa-css3-alt css"></i>
           <i class="fa-brands fa-js js"></i>
           <i class="fa-brands fa-vuejs vue"></i>
+          <i class="fa-brands fa-angular angular"></i>
         </div>
       </div>
       <div class="tech">
         <div class="tech-titulo">
-          <h4>Diseño</h4>
+          <h4 v-if="translate">Design</h4>
+          <h4 v-else>Diseño</h4>
         </div>
         <div class="tech-tecnologias">
           <i class="fa-brands fa-figma figma"></i>
@@ -40,7 +43,8 @@
       </div>
       <div class="tech">
         <div class="tech-titulo">
-          <h4>Herramientas</h4>
+          <h4 v-if="translate">Tools</h4>
+          <h4 v-else>Herramientas</h4>
         </div>
         <div class="tech-tecnologias">
           <i class="fa-brands fa-github github"></i>
@@ -54,7 +58,17 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
 
+let translate = ref(false);
+
+const toggleTranslate = () => {
+  translate.value = !translate.value;
+}
+
+defineExpose({
+  toggleTranslate
+});
 </script>
 
 <style></style>

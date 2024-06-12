@@ -12,7 +12,7 @@
       <div class="idioma">
         <span>Español</span>
         <label class="switch">
-          <input type="checkbox">
+          <input @change="callToggleTranslate()" type="checkbox">
           <span class="slider"></span>
         </label>
         <span>English</span>
@@ -21,28 +21,32 @@
     <div class="links">
       <div class="links-btn">
         <i class="fa-solid fa-circle-user"></i>
-        <a href="" @click="scrollToSection('presentacion')">Sobre Mí</a>
+        <a v-if="translate" href="" @click="scrollToSection('presentacion')">About Me</a>
+        <a v-else href="" @click="scrollToSection('presentacion')">Sobre Mí</a>
       </div>
       <div class="links-btn">
         <i class="fa-solid fa-star"></i>
-        <a href="" @click="scrollToSection('proyectos')">Proyectos</a>
+        <a v-if="translate" href="" @click="scrollToSection('proyectos')">Projects</a>
+        <a v-else href="" @click="scrollToSection('proyectos')">Proyectos</a>
       </div>
       <div class="links-btn">
         <i class="fa-solid fa-briefcase"></i>
-        <a href="" @click="scrollToSection('experiencias')">Experiencia</a>
+        <a v-if="translate" href="" @click="scrollToSection('experiencias')">Experiences</a>
+        <a v-else href="" @click="scrollToSection('experiencias')">Experiencia</a>
       </div>
       <div class="links-btn">
         <i class="fa-solid fa-code"></i>
-        <a href="" @click="scrollToSection('tecnologias')">Tecnologías</a>
+        <a v-if="translate" href="" @click="scrollToSection('tecnologias')">Technologies</a>
+        <a v-else href="" @click="scrollToSection('tecnologias')">Tecnologías</a>
       </div>
     </div>
   </header>
 
   <main>
-    <Presentacion />
-    <Proyectos />
-    <Experiencias />
-    <Tecnologias />
+    <Presentacion ref="translatePres" />
+    <Proyectos ref="translatePro" />
+    <Experiencias ref="translateExp" />
+    <Tecnologias ref="translateTech" />
   </main>
 </template>
 <script setup>
@@ -50,6 +54,22 @@ import Presentacion from "./components/Presentacion.vue";
 import Proyectos from "./components/Proyectos.vue";
 import Experiencias from "./components/Experiencia.vue";
 import Tecnologias from "./components/Tecnologias.vue";
+import { ref } from "vue";
+
+let translate = ref(false);
+
+const translatePres = ref(null);
+const translatePro = ref(null);
+const translateExp = ref(null);
+const translateTech = ref(null);
+
+const callToggleTranslate = () => {
+  translatePres.value.toggleTranslate();
+  translatePro.value.toggleTranslate();
+  translateExp.value.toggleTranslate();
+  translateTech.value.toggleTranslate();
+  translate.value = !translate.value;
+};
 
 const scrollToSection = (id) => {
   event.preventDefault();
