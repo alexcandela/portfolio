@@ -31,7 +31,7 @@
       </div>
       <div class="links-btn">
         <i class="fa-solid fa-briefcase"></i>
-        <a v-if="translate" href="" @click="scrollToSection('experiencias')">Experiences</a>
+        <a v-if="translate" href="" @click="scrollToSection('experiencias')">Experience</a>
         <a v-else href="" @click="scrollToSection('experiencias')">Experiencia</a>
       </div>
       <div class="links-btn">

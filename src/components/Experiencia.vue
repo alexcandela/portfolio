@@ -2,7 +2,7 @@
   <div id="experiencias" class="experiencias section">
     <div class="titulo">
       <div class="titulo-text">
-        <h3 v-if="translate">Experiences</h3>
+        <h3 v-if="translate">Experience</h3>
         <h3 v-else>Experiencia</h3> <img src="/src/assets/images/iconos/exp.svg" alt="experiencia">
       </div>
       <div class="titulo-hr">
