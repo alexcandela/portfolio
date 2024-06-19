@@ -27,20 +27,22 @@
               class="fa-brands fa-vuejs vue"></i><i class="fa-brands fa-sass sass"></i></div>
         </div>
       </div>
-      <div class="proyectos-lista-proyecto">
+      <!-- <div class="proyectos-lista-proyecto">
         <div class="img">
           <a target="blank" href="https://www.youtube.com/watch?v=IEj1uqlGZK0&t=1s"><img
               src="/src/assets/images/eventium.png" alt="2048"></a>
         </div>
         <div class="info">
           <div class="info-titulo">Eventium</div>
-          <div v-if="translate" class="info-desc">Simulation of a web application where you can publish events and attend them.</div>
-          <div v-else class="info-desc">Simulación de aplicación web donde se pueden publicar eventos y asistir a ellos.</div>
+          <div v-if="translate" class="info-desc">Simulation of a web application where you can publish events and
+            attend them.</div>
+          <div v-else class="info-desc">Simulación de aplicación web donde se pueden publicar eventos y asistir a ellos.
+          </div>
           <div class="info-tech"><i class="fa-brands fa-html5 html"></i><i class="fa-brands fa-css3-alt css"></i><i
               class="fa-brands fa-laravel laravel"></i><i class="fa-brands fa-js js"></i><i
               class="fa-brands fa-sass sass"></i></div>
         </div>
-      </div>
+      </div> -->
       <div class="proyectos-lista-proyecto">
         <div class="img">
           <a target="blank" href="https://www.youtube.com/watch?v=ksYQlPEz_BM"><img
@@ -49,13 +51,31 @@
         <div class="info">
           <div v-if="translate" class="info-titulo">Job Board</div>
           <div v-else class="info-titulo">Bolsa de trabajo</div>
-          <div v-if="translate" class="info-desc">Job board for my institute, to publish and apply for internship opportunities.
+          <div v-if="translate" class="info-desc">Job board for my institute, to publish and apply for internship
+            opportunities.
           </div>
-          <div v-else class="info-desc">Bolsa de trabajo para mi instituto, para publicar e inscribirse a ofertas de practicas.
+          <div v-else class="info-desc">Bolsa de trabajo para mi instituto, para publicar e inscribirse a ofertas de
+            practicas.
           </div>
           <div class="info-tech"><i class="fa-brands fa-html5 html"></i><i class="fa-brands fa-css3-alt css"></i><i
               class="fa-brands fa-vuejs vue"></i><i class="fa-brands fa-sass sass"></i><i
               class="fa-brands fa-laravel laravel"></i></div>
+        </div>
+      </div>
+      <div class="proyectos-lista-proyecto">
+        <div class="img">
+          <a target="blank" href=""><img src="/src/assets/images/HomeGeturplan.png" alt="2048"></a>
+        </div>
+        <div class="info">
+          <div class="info-titulo">Geturplan</div>
+          <div v-if="translate" class="info-desc">App where users can post plans and interact with them through likes
+            and comments. Currently under development.</div>
+          <div v-else class="info-desc">Aplicación donde los usuarios pueden publicar planes e interactuar con ellos
+            mediante likes y comentarios. Actualmente en desarollo.
+          </div>
+          <div class="info-tech"><i class="fa-brands fa-html5 html"></i><i class="fa-brands fa-css3-alt css"></i><i
+              class="fa-brands fa-laravel laravel"></i><i class="fa-brands fa-angular angular"></i><i
+              class="fa-brands fa-sass sass"></i></div>
         </div>
       </div>
     </div>
