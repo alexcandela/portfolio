@@ -51,11 +51,11 @@
         <div class="info">
           <div v-if="translate" class="info-titulo">Job Board</div>
           <div v-else class="info-titulo">Bolsa de trabajo</div>
-          <div v-if="translate" class="info-desc">Job board for my institute, to publish and apply for internship
-            opportunities.
+          <div v-if="translate" class="info-desc">
+            Job portal for our institute, where internship opportunities can be posted and applied for.
           </div>
-          <div v-else class="info-desc">Bolsa de trabajo para mi instituto, para publicar e inscribirse a ofertas de
-            practicas.
+          <div v-else class="info-desc">
+            Portal de empleo para nuestro instituto, donde se pueden publicar e inscribir a ofertas de prácticas.
           </div>
           <div class="info-tech"><i class="fa-brands fa-html5 html"></i><i class="fa-brands fa-css3-alt css"></i><i
               class="fa-brands fa-vuejs vue"></i><i class="fa-brands fa-sass sass"></i><i
