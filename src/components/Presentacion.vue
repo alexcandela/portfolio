@@ -1,7 +1,7 @@
 <template>
   <div id="presentacion" class="presentacion section">
     <div class="presentacion-img">
-      <img src="/src/assets/images/foto2.jpg" alt="profile_img">
+      <img src="/src/assets/images/alex3recortada.jpg" alt="profile_img">
     </div>
     <div class="presentacion-info">
       <div class="presentacion-info-nombre">

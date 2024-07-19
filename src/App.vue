@@ -1,14 +1,14 @@
 <template>
   <header>
     <div class="options">
-      <div class="darkMode">
+      <!-- <div class="darkMode">
         <i class="fa-solid fa-moon"></i>
         <label class="switch">
           <input type="checkbox">
           <span class="slider"></span>
         </label>
         <i class="fa-solid fa-sun"></i>
-      </div>
+      </div> -->
       <div class="idioma">
         <span>Español</span>
         <label class="switch">
