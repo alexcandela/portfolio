@@ -64,7 +64,7 @@
       </div>
       <div class="proyectos-lista-proyecto">
         <div class="img">
-          <a target="blank" href=""><img src="/src/assets/images/HomeGeturplan.png" alt="2048"></a>
+          <a target="blank" href="http://geturplan.s3-website.eu-north-1.amazonaws.com/"><img src="/src/assets/images/HomeGeturplan.png" alt="2048"></a>
         </div>
         <div class="info">
           <div class="info-titulo">Geturplan</div>
