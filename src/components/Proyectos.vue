@@ -27,41 +27,6 @@
               class="fa-brands fa-vuejs vue"></i><i class="fa-brands fa-sass sass"></i></div>
         </div>
       </div>
-      <!-- <div class="proyectos-lista-proyecto">
-        <div class="img">
-          <a target="blank" href="https://www.youtube.com/watch?v=IEj1uqlGZK0&t=1s"><img
-              src="/src/assets/images/eventium.png" alt="2048"></a>
-        </div>
-        <div class="info">
-          <div class="info-titulo">Eventium</div>
-          <div v-if="translate" class="info-desc">Simulation of a web application where you can publish events and
-            attend them.</div>
-          <div v-else class="info-desc">Simulación de aplicación web donde se pueden publicar eventos y asistir a ellos.
-          </div>
-          <div class="info-tech"><i class="fa-brands fa-html5 html"></i><i class="fa-brands fa-css3-alt css"></i><i
-              class="fa-brands fa-laravel laravel"></i><i class="fa-brands fa-js js"></i><i
-              class="fa-brands fa-sass sass"></i></div>
-        </div>
-      </div> -->
-      <div class="proyectos-lista-proyecto">
-        <div class="img">
-          <a target="blank" href="https://www.youtube.com/watch?v=ksYQlPEz_BM"><img
-              src="/src/assets/images/capturaBorsa.png" alt="2048"></a>
-        </div>
-        <div class="info">
-          <div v-if="translate" class="info-titulo">Job Board</div>
-          <div v-else class="info-titulo">Bolsa de trabajo</div>
-          <div v-if="translate" class="info-desc">
-            Job portal for our institute, where internship opportunities can be posted and applied for.
-          </div>
-          <div v-else class="info-desc">
-            Portal de empleo para nuestro instituto, donde se pueden publicar e inscribir a ofertas de prácticas.
-          </div>
-          <div class="info-tech"><i class="fa-brands fa-html5 html"></i><i class="fa-brands fa-css3-alt css"></i><i
-              class="fa-brands fa-vuejs vue"></i><i class="fa-brands fa-sass sass"></i><i
-              class="fa-brands fa-laravel laravel"></i></div>
-        </div>
-      </div>
       <div class="proyectos-lista-proyecto">
         <div class="img">
           <a target="blank" href="https://geturplan.com"><img src="/src/assets/images/HomeGeturplan.png" alt="2048"></a>
