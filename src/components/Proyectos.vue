@@ -29,7 +29,11 @@
       </div>
       <div class="proyectos-lista-proyecto">
         <div class="img">
-          <a target="blank" href="https://geturplan.com"><img src="/src/assets/images/HomeGeturplan.png" alt="2048"></a>
+          <iframe width="370" height="200" src="https://www.youtube.com/embed/2Q-VzXFPb9Y" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
         </div>
         <div class="info">
           <div class="info-titulo">Geturplan</div>
