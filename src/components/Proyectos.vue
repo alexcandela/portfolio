@@ -40,7 +40,7 @@
           <div v-if="translate" class="info-desc">App where users can post plans and interact with them through likes
             and comments. Currently under development.</div>
           <div v-else class="info-desc">Aplicación donde los usuarios pueden publicar planes e interactuar con ellos
-            mediante likes y comentarios. Actualmente en desarollo.
+            mediante likes y comentarios.
           </div>
           <div class="info-tech"><i class="fa-brands fa-html5 html"></i><i class="fa-brands fa-css3-alt css"></i><i
               class="fa-brands fa-laravel laravel"></i><i class="fa-brands fa-angular angular"></i><i
