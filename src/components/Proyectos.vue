@@ -29,11 +29,13 @@
       </div>
       <div class="proyectos-lista-proyecto">
         <div class="img">
-          <iframe width="370" height="200" src="https://www.youtube.com/embed/2Q-VzXFPb9Y" title="YouTube video player"
+          <!-- <iframe width="370" height="200" src="https://www.youtube.com/embed/2Q-VzXFPb9Y" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen>
-          </iframe>
+          </iframe> -->
+          <a target="blank" href="https://geturplanfrontend.vercel.app/"><img src="/src/assets/images/HomeGeturplan.png"
+              alt="2048"></a>
         </div>
         <div class="info">
           <div class="info-titulo">Geturplan</div>
